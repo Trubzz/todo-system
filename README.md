@@ -11,7 +11,8 @@ This project automates the testing of a simple Todo web application using Playwr
   └── trace
 ├── tests/ 
 │ └── e2e/
-│     └── todo.spec.ts # End-to-end test scenarios (create, delete, complete, etc.) ├── pages/ 
+│     └── todo.spec.ts # End-to-end test scenarios (create, delete, complete, etc.)
+├── pages/ 
 │ └── homepage.ts # POM for the homepage 
 ├── seeds/ 
 │ └── testdata.ts # Testdata 
@@ -47,7 +48,7 @@ Execute the Playwright tests using the following command:
 
     npx playwright test
 
-### 4. To view the test report
+### 4. View the test report
 
  Run the following command:
 
