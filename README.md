@@ -47,5 +47,11 @@ Execute the Playwright tests using the following command:
 
     npx playwright test
 
+### 4. To view the test report
+
+ Run the following command:
+
+    npx playwright show-report output/reports
+
 # Learning Resources
 - [Playwright](https://playwright.dev/)
